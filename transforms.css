@@ -1,29 +1,38 @@
-/* Step 1 */
+/* 
+  Class that is added to the cat image upon button click
+  and triggers the x-axis translation
+*/
 .translate-x {
-  transform: translateX(100px);
-  /* Step 4 */
-  /* transform: translate(100px); */
 }
 
-/* Step 2 */
+/* 
+  The cat image for the x-axis transformation
+*/
 #translate-x-cat {
-  transition: transform 0.2s ease-in;
 }
 
-/* Step 4 */
+/* 
+  Class that is added to the cat image upon button click
+  and triggers the y-axis translation
+*/
 .translate-y {
-  transform: translateY(50px);
 }
 
-/* Step 5 */
+/* 
+  The cat image for the y-axis transformation
+*/
 #translate-y-cat {
-  transition: transform 0.2s ease-out;
 }
 
-.translate-both {
-  transform: translate(100px, 50px);
+/* 
+  Class that is added to the cat image upon button click
+  and triggers the x-axis and y-axis translations
+*/
+.translate-x-and-y {
 }
 
-#translate-both-cat {
-  transition: transform 0.2s linear;
+/* 
+  The cat image for the x-axis and y-axis transformations
+*/
+#translate-x-and-y-cat {
 }

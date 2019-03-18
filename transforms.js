@@ -1,10 +1,12 @@
 const translateXButton = document.querySelector("#translate-x-button");
 const translateYButton = document.querySelector("#translate-y-button");
-const translateBothButton = document.querySelector("#translate-both-button");
+const translateXANdYButton = document.querySelector(
+  "#translate-x-and-y-button"
+);
 
 translateXButton.addEventListener("click", translateX);
 translateYButton.addEventListener("click", translateY);
-translateBothButton.addEventListener("click", translateXAndY);
+translateXANdYButton.addEventListener("click", translateXAndY);
 
 function translateX() {
   const cat = document.querySelector("#translate-x-cat");
@@ -17,8 +19,8 @@ function translateY() {
 }
 
 function translateXAndY() {
-  const cat = document.querySelector("#translate-both-cat");
-  toggleClassAndText(cat, translateBothButton, "translate-both");
+  const cat = document.querySelector("#translate-x-and-y-cat");
+  toggleClassAndText(cat, translateXANdYButton, "translate-x-and-y");
 }
 
 function toggleClassAndText(cat, button, className) {
