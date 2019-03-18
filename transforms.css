@@ -1,0 +1,29 @@
+/* Step 1 */
+.translate-x {
+  transform: translateX(100px);
+  /* Step 4 */
+  /* transform: translate(100px); */
+}
+
+/* Step 2 */
+#translate-x-cat {
+  transition: transform 0.2s ease-in;
+}
+
+/* Step 4 */
+.translate-y {
+  transform: translateY(50px);
+}
+
+/* Step 5 */
+#translate-y-cat {
+  transition: transform 0.2s ease-out;
+}
+
+.translate-both {
+  transform: translate(100px, 50px);
+}
+
+#translate-both-cat {
+  transition: transform 0.2s linear;
+}
