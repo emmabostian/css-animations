@@ -1,38 +1,48 @@
 /* 
-  Class that is added to the cat image upon button click
-  and triggers the x-axis translation
+  Class that is added to the cat image 
+  upon button click and triggers the x-axis 
+  translation
 */
 .translate-x {
+  transform: translateX(100px);
 }
 
 /* 
   The cat image for the x-axis transformation
 */
 #translate-x-cat {
+  transition: transform .2s ease-in;
 }
 
 /* 
-  Class that is added to the cat image upon button click
-  and triggers the y-axis translation
+  Class that is added to the cat image 
+  upon button click and triggers the y-axis 
+  translation
 */
 .translate-y {
+  transform: translateY(50px);
 }
 
 /* 
   The cat image for the y-axis transformation
 */
 #translate-y-cat {
+  transition: transform .2s ease-out;
 }
 
 /* 
-  Class that is added to the cat image upon button click
-  and triggers the x-axis and y-axis translations
+  Class that is added to the cat image 
+  upon button click and triggers the x-axis 
+  and y-axis translations
 */
 .translate-x-and-y {
+  transform: translate(100px, 50px);
 }
 
 /* 
-  The cat image for the x-axis and y-axis transformations
+  The cat image for the x-axis and 
+  y-axis transformations
 */
 #translate-x-and-y-cat {
+  transition: transform .2s linear;
 }
