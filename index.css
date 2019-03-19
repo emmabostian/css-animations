@@ -30,13 +30,13 @@ button:hover {
 .cat {
   width: 100px;
   height: 100px;
-  margin-left: 100px;
+  margin-left: 20px;
 }
 
 section {
   display: flex;
   align-items: center;
-  margin: 30px;
+  margin: 15px;
 }
 
 div {
