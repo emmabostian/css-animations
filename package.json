@@ -1,9 +1,15 @@
 {
-  "name": "CSS-Translations",
+  "name": "css-animations",
   "version": "1.0.0",
-  "description": "Move HTML Elements along the X and Y Axes with CSS Translations",
-  "main": "index.html",
-  "scripts": {},
+  "description": "CSS translations are the foundation of CSS animations.",
+  "main": "transforms.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  }
 }
