@@ -1,0 +1,9 @@
+{
+  "name": "CSS-Translations",
+  "version": "1.0.0",
+  "description": "Move HTML Elements along the X and Y Axes with CSS Translations",
+  "main": "index.html",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {}
+}
