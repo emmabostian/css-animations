@@ -2,7 +2,7 @@
   "name": "css-animations",
   "version": "1.0.0",
   "description": "CSS translations are the foundation of CSS animations.",
-  "main": "transforms.html",
+  "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html"
